@@ -6,20 +6,6 @@ Collection de notebooks Jupyter pour l'apprentissage et la documentation du lang
 
 Ce projet regroupe des notebooks interactifs permettant d'explorer et de documenter les différentes fonctionnalités du langage Kotlin. Chaque notebook présente des concepts spécifiques avec des exemples de code exécutables et des explications détaillées.
 
-## Notebooks disponibles
-
-### `generiques-obj-ext.ipynb`
-
-Ce notebook couvre les concepts suivants :
-
-- **Génériques** : Utilisation des types paramétrés pour créer des classes réutilisables
-  - Exemple : classe `Question<T>` avec différents types (String, Boolean, Int)
-
-- **Objets singleton** : Déclaration d'objets uniques avec le mot-clé `object`
-  - Exemple : `StudentProgress` pour suivre la progression
-
-- **Objets compagnons** : Utilisation de `companion object` pour des membres accessibles via le nom de la classe
-  - Exemple : accès à `Quiz.answered` et `Quiz.total`
 
 ## Prérequis
 
